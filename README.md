@@ -1,55 +1,53 @@
 # Unit 19 React Homework: Employee Directory
 
-## Overview
+## Description
 
-For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+This application is a employee directory with React. It allows a user to view the entire employee directory at once and access all their information. Business managers will benefit greatly for being able to view non-sensitive data about their employees. 
 
-## User Story
 
-* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+## Table of Contents
 
-## Business Context
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributors](#Contributors)
+* [Test](#Test)
+* [Questions](#Questions)
 
-An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+## Installation
 
-## Acceptance Criteria
+To successfully run this application from GitHub, please do a npm install upon downloading the repo in your terminal.
 
-Given a table of random users generated from the [Random User API](https://randomuser.me/), when the user loads the page, a table of employees should render. 
+```bash
+npm install
+```
 
-The user should be able to:
+## Usage
 
-  * Sort the table by at least one category
+To use this application from GitHub, first fork and open the repo onto your local machine. Before attempting to use the app, open your terminal and perform a ```npm install``` to get the necessary packages.
 
-  * Filter the users by at least one property.
+## Credits
 
-## Commit Early and Often
+Alyson Bennett was the sole collaborator on this project. 
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+## License
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+[MIT](https://choosealicense.com/licenses/mit/)
 
-Follow these guidelines for committing:
+Copyright (c) 2020 Alyson Bennett
 
-* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+## Contributing
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-* Don't commit half done work, for the sake of your collaborators (and your future self!)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
 
-* Test your application before you commit to ensure functionality at every step in the development process
+## Tests
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+There has not been a test script written for this application yet.
 
-* Deploy this site to GitHub Pages using the [Create React App docs for deployment.](https://create-react-app.dev/docs/deployment/#github-pages)
+## Questions
 
-* **Important**: Be sure to push your codebase to GitHub and **NOT** your built and deployed code. Ensure this happens by following the above instructions and using the `gh-pages` branch to host the deployed application's code.
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* the URL to the deployed application
-
-* the URL to the Github repository
+If you have any questions, please contact [Alyson Bennett](https://github.com/alysonbennett) at alysonbennett@gmail.com.
